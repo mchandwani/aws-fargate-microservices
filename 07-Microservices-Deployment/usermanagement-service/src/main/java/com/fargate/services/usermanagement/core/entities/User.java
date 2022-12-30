@@ -1,4 +1,4 @@
-package com.stacksimplify.usermanagement.core.entities;
+package com.fargate.services.usermanagement.core.entities;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

@@ -1,4 +1,4 @@
-package com.stacksimplify.usermanagement.core.dtos;
+package com.fargate.services.usermanagement.core.dtos;
 
 import java.util.List;
 

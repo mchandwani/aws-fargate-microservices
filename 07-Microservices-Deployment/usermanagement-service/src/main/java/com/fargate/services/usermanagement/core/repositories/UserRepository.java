@@ -1,8 +1,9 @@
-package com.stacksimplify.usermanagement.core.repositories;
+package com.fargate.services.usermanagement.core.repositories;
 
-import com.stacksimplify.usermanagement.core.entities.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
+
+import com.fargate.services.usermanagement.core.entities.User;
 
 public interface UserRepository extends JpaRepository<User, String> {
 

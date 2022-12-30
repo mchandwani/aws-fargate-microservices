@@ -1,4 +1,4 @@
-package com.stacksimplify.usermanagement.core.controllers;
+package com.fargate.services.usermanagement.core.controllers;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
@@ -29,9 +29,9 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.server.ResponseStatusException;
 
-import com.stacksimplify.usermanagement.core.dtos.EmailMessage;
-import com.stacksimplify.usermanagement.core.entities.User;
-import com.stacksimplify.usermanagement.core.repositories.UserRepository;
+import com.fargate.services.usermanagement.core.dtos.EmailMessage;
+import com.fargate.services.usermanagement.core.entities.User;
+import com.fargate.services.usermanagement.core.repositories.UserRepository;
 
 @RestController
 @RequestMapping("/usermgmt")

@@ -1,4 +1,4 @@
-package com.stacksimplify.usermanagement.configurations;
+package com.fargate.services.usermanagement.configurations;
 
 import org.springframework.core.Ordered;
 import org.springframework.core.annotation.Order;
