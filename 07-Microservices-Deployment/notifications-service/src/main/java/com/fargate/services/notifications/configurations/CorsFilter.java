@@ -1,4 +1,4 @@
-package com.stacksimplify.notifications.configurations;
+package com.fargate.services.notifications.configurations;
 
 import org.springframework.core.Ordered;
 import org.springframework.core.annotation.Order;

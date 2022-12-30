@@ -9,7 +9,7 @@
 		<version>2.1.4.RELEASE</version>
 		<relativePath />
 	</parent>
-	<groupId>com.stacksimplify</groupId>
+	<groupId>com.fargate.services</groupId>
 	<artifactId>notifications</artifactId>
 	<version>1.0.0</version>
 	<name>notifications-microservice</name>
@@ -109,7 +109,7 @@
 							</execution>
 						</executions>
 						<configuration>
-							<repository>stacksimplify/${project.name}</repository>
+							<repository>fargate-service/${project.name}</repository>
 							<tag>${project.version}</tag>
 							<skipDockerInfo>true</skipDockerInfo>
 						</configuration>

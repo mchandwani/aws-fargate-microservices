@@ -1,4 +1,4 @@
-package com.stacksimplify.notifications.core.controllers;
+package com.fargate.services.notifications.core.controllers;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.stacksimplify.notifications.core.dtos.EmailMessage;
-import com.stacksimplify.notifications.core.services.NotificationService;
+import com.fargate.services.notifications.core.dtos.EmailMessage;
+import com.fargate.services.notifications.core.services.NotificationService;
 
 @RestController
 public class NotificationController {

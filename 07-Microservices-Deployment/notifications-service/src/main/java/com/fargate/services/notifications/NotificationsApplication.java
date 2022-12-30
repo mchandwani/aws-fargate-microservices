@@ -1,4 +1,4 @@
-package com.stacksimplify.notifications;
+package com.fargate.services.notifications;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

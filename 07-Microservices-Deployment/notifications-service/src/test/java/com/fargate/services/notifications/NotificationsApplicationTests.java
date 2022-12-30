@@ -1,4 +1,4 @@
-package com.stacksimplify.notifications;
+package com.fargate.services.notifications;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

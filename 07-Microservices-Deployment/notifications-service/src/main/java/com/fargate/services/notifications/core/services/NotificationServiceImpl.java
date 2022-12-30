@@ -1,4 +1,4 @@
-package com.stacksimplify.notifications.core.services;
+package com.fargate.services.notifications.core.services;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,7 +18,7 @@ import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 
-import com.stacksimplify.notifications.core.dtos.EmailMessage;
+import com.fargate.services.notifications.core.dtos.EmailMessage;
 
 @Service
 public class NotificationServiceImpl implements NotificationService {

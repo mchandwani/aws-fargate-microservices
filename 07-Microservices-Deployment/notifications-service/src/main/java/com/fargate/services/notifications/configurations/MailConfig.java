@@ -1,4 +1,4 @@
-package com.stacksimplify.notifications.configurations;
+package com.fargate.services.notifications.configurations;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

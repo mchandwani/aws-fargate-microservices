@@ -1,4 +1,4 @@
-package com.stacksimplify.notifications.core.dtos;
+package com.fargate.services.notifications.core.dtos;
 
 import java.util.List;
 
